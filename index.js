@@ -1,13 +1,16 @@
-import Ball from './Ball.js'
+import Ball from './Ball.js';
+import Paddle from './Paddle.js';
 
-const ball = new Ball(document.getElementById('ball'))
+const ball = new Ball(document.getElementById('ball'));
+const playerPaddle = new Paddle(document.getElementById('player-paddle'));
+const computerPaddle = new Paddle(document.getElementById('computer-paddle'));
 
 let lastTime;
 function update(time) {
     if (lastTime != null) {
     // how much time passes between frames
     const delta = time - lastTime;
-    ball.update(delta);
+    // ball.update(delta);
     }
 
     lastTime = time;
@@ -15,6 +18,11 @@ function update(time) {
     // console.log(time);
     window.requestAnimationFrame(update)
 }
+
+document.addEventListener('mousemove', e => {
+    // e.y is pixel value, convert to percentage
+    playerPaddle.position = (e.y / window.innerHeight) * 100;
+})
 
 // better choice than setInterval(not accurate)
 window.requestAnimationFrame(update)
