@@ -37,7 +37,7 @@ export default class Ball {
         this.direction = { x: 0 }; 
         // length of a=1 (unit vector), unit vector(1) * velocity = x units in direction of a
         // velocity only determines speed, direction only determines direction
-        while (Math.abs(this.direction.x <= .2) || Math.abs(this.direction >= .9)) {
+        while (Math.abs(this.direction.x) <= .2 || Math.abs(this.direction.x) >= .9) {
             // runs to make game more interesting (.9 side to side, .2 up and down)
             // Math.abs gets absolute value in case of negative numbers
             const heading = randomNumberBetween(0, 2 * Math.PI); // 2PI ~360 degrees, creates random number 0-360ish
