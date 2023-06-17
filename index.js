@@ -11,6 +11,7 @@ function update(time) {
     // how much time passes between frames
     const delta = time - lastTime;
     // ball.update(delta);
+    computerPaddle.update(delta, ball.y);
     }
 
     lastTime = time;
@@ -20,7 +21,7 @@ function update(time) {
 }
 
 document.addEventListener('mousemove', e => {
-    // e.y is pixel value, convert to percentage
+    // e.y is pixel value, convert to percentage (CSS)
     playerPaddle.position = (e.y / window.innerHeight) * 100;
 })
 
