@@ -1,4 +1,5 @@
-const INITIAL_VELOCITY = .025;
+const INITIAL_VELOCITY = 0.025;
+const VELOCITY_INCREASE = 0.00001;
 
 export default class Ball {
     constructor(ballElem) {
@@ -24,6 +25,11 @@ export default class Ball {
         this.ballElem.style.setProperty('--y', value); // pass value to CSS var
     };
 
+    // ball bounce off wall
+    rect() {
+        return this.ballElem.getBoundingClientRect();
+    }
+
     // velocity/direction
     reset() {
         this.x = 50;
@@ -41,8 +47,22 @@ export default class Ball {
     }
 
     update(delta) {
+        // include delta to scale with frame time
         this.x += this.direction.x * this.velocity * delta;
         this.y += this.direction.y * this.velocity * delta;
+        // increase velocity over game play
+        this.velocity += VELOCITY_INCREASE * delta;
+        const rect =  this.rect();
+
+        if (rect.bottom >= window.innerHeight || rect.top <= 0) {
+            // if ball goes past bottom or top, flip the y direction
+            this.direction.y *= -1
+        }
+
+        if (rect.right >= window.innerWidth || rect.left <= 0) {
+            // if ball hits right or left, flip the x direction
+            this.direction.x *= -1
+        }
     }
 }
 
