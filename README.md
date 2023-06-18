@@ -13,20 +13,24 @@
 
 ## Table of Contents
 
+* [Contributing](#contributing)
+* [Objectives](#objectives)
+* [Learning Outcomes](#learning-outcomes)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
 * [Questions](#questions)
+
+## Contributing
+[Beginner JavaScript Game Dev Project](https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1348s) by [WebDevSimplified](https://github.com/WebDevSimplified)
+
+## Objectives
+
+## Learning Outcomes
 
 ## Usage
 
 ## License
-
 [MIT License](https://opensource.org/licenses/MIT)
-
-## Contributing 
-
-[Beginner JavaScript Game Dev Project](https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1348s) by [WebDevSimplified](https://github.com/WebDevSimplified)
 
 ## Questions
 * Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
