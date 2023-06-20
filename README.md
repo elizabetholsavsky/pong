@@ -11,6 +11,10 @@
   
 </div>
 
+## Description
+
+This simple pong game allows a single user to play against a computer. Points for user and computer are recorded at the top of the screen. The game was built by following a [game tutorial](https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1348s) by [WebDevSimplified](https://github.com/WebDevSimplified).
+
 ## Table of Contents
 
 * [Contributing](#contributing)
@@ -24,6 +28,8 @@
 [Beginner JavaScript Game Dev Project](https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1348s) by [WebDevSimplified](https://github.com/WebDevSimplified)
 
 ## Objectives
+
+After recently learning about HTML canvas in my last project, [*Drawma*](https://github.com/elizabetholsavsky/drawma), I was motivatged to apply these skills to create a simple JavaScript game. Since I do not have any prior experience creating a JavaScript game, I decided to get the ball rolling with this tutorial. While this specific game does not include canvas, it does demonstrate a lot of basic game functionality that will be useful to reference in the future when I am creating my own game. 
 
 ## Learning Outcomes
 
