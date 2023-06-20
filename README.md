@@ -33,7 +33,7 @@ After recently learning about HTML canvas in my last project, [*Drawma*](https:/
 
 ## Learning Outcomes
 
-Some key learning experiences I encountered were making objects move in a random direction as well as defining borders were the objects' direction would either be stopped or reversed. I also learned about how to create a computer opponent that would be tought but utlimately not invinceable. (The opponent has a max velocity that would require it to miss at some point.) See code for notes and detailed comments.
+Some key learning experiences I encountered were making objects move in a random direction as well as defining borders were the objects' direction would either be stopped or reversed. I also learned about how to create a computer opponent that would be tought but utlimately not invincible. (The opponent has a max velocity and will inevitably miss the ball at some point.) See code for notes and detailed comments.
 
 ## Usage
 
