@@ -29,11 +29,15 @@ This simple pong game allows a single user to play against a computer. Points fo
 
 ## Objectives
 
-After recently learning about HTML canvas in my last project, [*Drawma*](https://github.com/elizabetholsavsky/drawma), I was motivatged to apply these skills to create a simple JavaScript game. Since I do not have any prior experience creating a JavaScript game, I decided to get the ball rolling with this tutorial. While this specific game does not include canvas, it does demonstrate a lot of basic game functionality that will be useful to reference in the future when I am creating my own game. 
+After recently learning about HTML canvas in my last project, [*Drawma*](https://github.com/elizabetholsavsky/drawma), I was motivatged to apply these skills to create a simple JavaScript game. Since I do not have any prior experience creating a game, I decided to get the ball rolling (...or bouncing) with this tutorial. While this specific game does not include canvas, it does demonstrate a lot of basic game functionality that will be useful to reference when I am creating my own game in the future. 
 
 ## Learning Outcomes
 
+Some key learning experiences I encountered were making objects move in a random direction as well as defining borders were the objects' direction would either be stopped or reversed. I also learned about how to create a computer opponent that would be tought but utlimately not invinceable. (The opponent has a max velocity that would require it to miss at some point.) See code for notes and detailed comments.
+
 ## Usage
+
+Visit [elizabetholsavsky.github.io/pong/](elizabetholsavsky.github.io/pong/) to begin playing. Use your mouse to move your paddle (left) to keep the ball from exiting the screen. Stay alert, the ball's velocity will increase the longer you play. If you or your computer opponent 'miss' the ball, the opposing player will earn a point (displayed at the top of the screen) and the ball will be reset into the middle of the screen. As you embark on this digital duel, let your every move be a testament to human ingenuity. Show the computer that even in the realm of code, the human spirit prevails!
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
