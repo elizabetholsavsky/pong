@@ -13,7 +13,7 @@
 
 ## Description
 
-This simple pong game allows a single user to play against a computer. Points for user and computer are recorded at the top of the screen. The game was built by following a [game tutorial](https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1348s) by [WebDevSimplified](https://github.com/WebDevSimplified).
+This simple pong game allows a single user to play against a computer opponent. Points for the user and the computer opponent are recorded at the top of the screen. The game was built by following a [game tutorial](https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1348s) by [WebDevSimplified](https://github.com/WebDevSimplified).
 
 ## Table of Contents
 
