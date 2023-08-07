@@ -15,6 +15,8 @@
 
 This simple pong game allows a single user to play against a computer opponent. Points for the user and the computer opponent are recorded at the top of the screen. The game was built by following a [game tutorial](https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1348s) by [WebDevSimplified](https://github.com/WebDevSimplified).
 
+![elizabetholsavsky github io_pong_](https://github.com/elizabetholsavsky/pong/assets/116515976/27d81bf0-ee94-4a65-bd75-251f8231e5e6)
+
 ## Table of Contents
 
 * [Contributing](#contributing)
@@ -43,5 +45,8 @@ Visit [elizabetholsavsky.github.io/pong/](elizabetholsavsky.github.io/pong/) to 
 [MIT License](https://opensource.org/licenses/MIT)
 
 ## Questions
-* Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
 * Email elizabetholsavsky@gmail.com
+* LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
+* Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
+* Hashnode [https://elizabetholsavsky.hashnode.dev/](https://elizabetholsavsky.hashnode.dev/)
+* Twitter [@elizavsky](https://twitter.com/home)
