@@ -24,7 +24,7 @@ This simple pong game allows a single user to play against a computer opponent. 
 * [Learning Outcomes](#learning-outcomes)
 * [Usage](#usage)
 * [License](#license)
-* [Questions](#questions)
+* [Contact](#contact)
 
 ## Contributing
 [Beginner JavaScript Game Dev Project](https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1348s) by [WebDevSimplified](https://github.com/WebDevSimplified)
@@ -44,7 +44,7 @@ Visit [elizabetholsavsky.github.io/pong/](elizabetholsavsky.github.io/pong/) to 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
 
-## Questions
+## Contact
 * Email elizabetholsavsky@gmail.com
 * LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
 * Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
